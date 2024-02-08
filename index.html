@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src ="script.js"></script>
+    <title>rps-game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors</h1>
+    <div class="btncontainer">
+    <div class="btn1"><button>Rock</button></div>
+    <div class="btn2"><button>Paper</button></div>
+    <div class="btn3"><button>Scissors</button></div>
+    </div>
+    <div id="results"></div> <!-- Div for displaying results -->
+    <script src ="script.js"></script> <!-- this is placed not in head to ensure that by the time the browser encounters the Js code, the HTML content has been fully loaded and the DOM is ready -->
 </body>
 </html>
